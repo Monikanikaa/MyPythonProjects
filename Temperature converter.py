@@ -20,12 +20,12 @@ def analiza():
         print("Temperatura powyżej temperatury wrzenia.")
 
 def FtoC():
-    ret = (liczba - 32)/1.8
+    ret = round((liczba - 32)/1.8, 2)
     print(liczba, "*F to ", ret, "*C\n")
     return ret
 
 def CtoF():
-    ret = (liczba * 1.8) + 32
+    ret = round((liczba * 1.8) + 32, 2)
     print(liczba, "*C to ", ret, "*F\n")
     return ret
 
